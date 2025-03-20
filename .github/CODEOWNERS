@@ -1,4 +1,25 @@
-# This is a template for CODEOWNERS file
-# Add your GitHub username to be automatically assigned as a reviewer
-# Example:
-# * @username 
+# This file defines owners of the entire repository
+# Each line is a file pattern followed by one or more owners
+# More specific patterns take precedence over less specific ones
+
+# Default owners for everything in the repo
+* @RichuJohn
+
+# Backend TypeScript files
+*.ts @RichuJohn
+
+# Configuration files
+*.json @RichuJohn
+*.yml @RichuJohn
+*.yaml @RichuJohn
+
+# Documentation
+*.md @RichuJohn
+
+# Docker files
+Dockerfile @RichuJohn
+docker-compose*.yml @RichuJohn
+.dockerignore @RichuJohn
+
+# GitHub specific files
+.github/* @RichuJohn 
