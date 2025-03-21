@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  test:
+    build:
+      context: .
+      target: builder
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=test
+      - PORT=3001
+    command: npm run test:watch 
