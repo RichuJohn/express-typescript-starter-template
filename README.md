@@ -23,6 +23,18 @@ A production-ready Express.js API template with TypeScript, following best pract
 
 ## Quick Start
 
+### Using this Template
+
+1. Click the green "Use this template" button at the top of this repository
+2. Choose a name for your new repository
+3. Choose whether to make it public or private
+4. Click "Create repository from template"
+5. Clone your new repository:
+   ```bash
+   git clone git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
+   ```
+
 ### Using npm
 
 1. Click the "Use this template" button on GitHub
